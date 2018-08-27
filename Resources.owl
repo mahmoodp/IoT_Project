@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#"
+     xml:base="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Resources="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Database_MS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Database_MS">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Query"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Host -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Host">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Password -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Password">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Port -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Port">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Protocol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Protocol">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Username -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Username">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#dataType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#dataType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Resources"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#endpoint -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#endpoint">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Resources"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#queryContext -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#queryContext">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Query"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Resources"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Query"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Query -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Query">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Resources"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Q1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Q1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Query"/>
+        <Database_MS>MS_ACCESS</Database_MS>
+        <dataType>double</dataType>
+        <name>NoPendingOrders</name>
+        <queryContext>SELECT COUNT(ONo) AS NoPendingOrders FROM qrPendingOrders</queryContext>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Q2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Q2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mahmoodp/ontologies/2018/1/Resources#Query"/>
+        <Database_MS>MS_ACCESS</Database_MS>
+        <dataType>double</dataType>
+        <name>TodayNoFinishedOrders</name>
+        <queryContext>Select COUNT(ONo) AS NoFinishedOrders FROM qrFinishedOrders</queryContext>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
